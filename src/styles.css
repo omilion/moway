@@ -138,7 +138,6 @@ a {
   grid-template-columns: minmax(0, 1.02fr) minmax(320px, 0.98fr);
   height: 100vh;
   height: 100svh;
-  min-height: 760px;
   padding: clamp(28px, 4vw, 56px) max(var(--content-min-padding), calc((100vw - var(--content-width)) / 2));
   place-items: center;
 }
@@ -236,30 +235,6 @@ p {
 .secondary {
   background: var(--teal-soft);
   color: var(--teal-dark);
-}
-
-.proof-strip {
-  border-top: 1px solid var(--line);
-  display: grid;
-  gap: 22px;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  margin-top: 34px;
-  max-width: 760px;
-  padding-top: 20px;
-}
-
-.proof-strip strong {
-  color: var(--teal-dark);
-  display: block;
-  font-size: 1rem;
-}
-
-.proof-strip span {
-  color: var(--muted);
-  display: block;
-  font-size: 0.86rem;
-  line-height: 1.4;
-  margin-top: 4px;
 }
 
 .hero-visual {
@@ -698,11 +673,6 @@ p {
   overflow-wrap: anywhere;
 }
 
-.contact-card small {
-  color: var(--teal);
-  font-weight: 800;
-}
-
 .site-footer {
   background:
     radial-gradient(circle at 82% 4%, rgba(248, 183, 7, 0.18), transparent 30%),
@@ -878,7 +848,8 @@ p {
   .hero {
     min-height: 100vh;
     min-height: 100svh;
-    height: auto;
+    height: 100vh;
+    height: 100svh;
   }
 
   .hero-visual,
@@ -972,7 +943,6 @@ p {
     font-size: clamp(2rem, 10vw, 3rem);
   }
 
-  .proof-strip,
   .service-grid,
   .program-grid,
   .client-wall,

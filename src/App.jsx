@@ -9,7 +9,6 @@ import {
   Handshake,
   Mail,
   Menu,
-  Phone,
   ShieldCheck,
   Sparkles,
   UsersRound,
@@ -266,20 +265,6 @@ function App() {
               Ver soluciones
             </a>
           </div>
-          <div className="proof-strip" aria-label="Credenciales Moway">
-            <div>
-              <strong>OTEC</strong>
-              <span>capacitación y entrenamiento</span>
-            </div>
-            <div>
-              <strong>Fundación Chile</strong>
-              <span>aliados estratégicos</span>
-            </div>
-            <div>
-              <strong>SENCE</strong>
-              <span>franquicia tributaria</span>
-            </div>
-          </div>
         </div>
         <div className="hero-visual" data-animate>
           <img src="/assets/team-hands.webp" alt="Equipo uniendo manos en colaboración" />
@@ -455,13 +440,11 @@ function App() {
               <Mail size={22} />
               <span>Karen Larraín</span>
               <strong>klarrain@moway.cl</strong>
-              <small>+56 9 5898 5805</small>
             </a>
             <a href="mailto:vdonoso@moway.cl" className="contact-card">
-              <Phone size={22} />
+              <Mail size={22} />
               <span>Viviana Donoso</span>
               <strong>vdonoso@moway.cl</strong>
-              <small>+56 9 7969 4120</small>
             </a>
           </div>
         </div>
