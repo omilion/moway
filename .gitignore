@@ -7,3 +7,8 @@ _source_*
 _ppt_media/
 _ppt_media_contact.jpg
 /moway-*.png
+
+.dev.vars*
+!.dev.vars.example
+.env*
+!.env.example
