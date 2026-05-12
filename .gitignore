@@ -1,0 +1,9 @@
+node_modules/
+dist/
+.vercel/
+.wrangler/
+*.log
+_source_*
+_ppt_media/
+_ppt_media_contact.jpg
+/moway-*.png
