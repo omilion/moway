@@ -149,7 +149,7 @@ a {
 
 .hero-logo {
   height: 218px;
-  margin-bottom: -28px;
+  margin: 12px 0 -8px -30px;
   object-fit: contain;
   width: auto;
 }
@@ -964,7 +964,7 @@ p {
 
   .hero-logo {
     height: 165px;
-    margin-bottom: -22px;
+    margin: 10px 0 -6px -18px;
     max-width: 100%;
   }
 

@@ -249,10 +249,10 @@ function App() {
 
       <section className="hero" id="inicio">
         <div className="hero-copy" data-animate>
-          <img className="hero-logo" src="/assets/moway-logo-otec-small.png" alt="Moway Consultoría & Formación" />
           <span className="eyebrow">
             <Sparkles size={16} /> Consultoría & Formación
           </span>
+          <img className="hero-logo" src="/assets/moway-logo-otec-small.png" alt="Moway Consultoría & Formación" />
           <h1>Socios estratégicos en la búsqueda y desarrollo de tu capital humano.</h1>
           <p>
             Diseñamos soluciones customizadas para fortalecer competencias, transformar equipos y
