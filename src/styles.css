@@ -57,7 +57,7 @@ a {
   background: rgba(255, 255, 255, 0.82);
   border-bottom: 1px solid rgba(0, 93, 120, 0.08);
   display: flex;
-  height: 104px;
+  height: 76px;
   justify-content: space-between;
   left: 0;
   padding: 0 max(var(--content-min-padding), calc((100vw - var(--content-width)) / 2));
@@ -75,7 +75,7 @@ a {
 }
 
 .brand img {
-  height: 94px;
+  height: 66px;
   object-fit: contain;
   width: auto;
 }
@@ -148,7 +148,7 @@ a {
 }
 
 .hero-logo {
-  height: 218px;
+  height: 153px;
   margin: 12px 0 -8px -30px;
   object-fit: contain;
   width: auto;
@@ -735,7 +735,7 @@ p {
   border: 0;
   border-radius: 0;
   box-shadow: none;
-  height: 218px;
+  height: 153px;
   object-fit: contain;
   padding: 0;
   width: auto;
@@ -909,12 +909,12 @@ p {
 
 @media (max-width: 760px) {
   .site-header {
-    height: 92px;
+    height: 67px;
     padding: 0 18px;
   }
 
   .brand img {
-    height: 82px;
+    height: 57px;
     max-width: 300px;
   }
 
@@ -963,7 +963,7 @@ p {
   }
 
   .hero-logo {
-    height: 165px;
+    height: 116px;
     margin: 10px 0 -6px -18px;
     max-width: 100%;
   }
@@ -1021,7 +1021,7 @@ p {
   }
 
   .footer-brand img {
-    height: 165px;
+    height: 116px;
   }
 
   .footer-accreditations {
