@@ -115,16 +115,7 @@ const programGroups = [
   },
 ];
 
-const clientLogos = [
-  'Falabella',
-  'ENGIE',
-  'Samsung',
-  'PDI',
-  'Fundación Chile',
-  'SENCE',
-  'Antofagasta Minerals',
-  'Ripley',
-];
+const clientLogos = Array.from({ length: 19 }, (_, index) => `/assets/Imagen${index + 1}.png`);
 
 const faqs = [
   {
@@ -387,8 +378,10 @@ function App() {
           </p>
         </div>
         <div className="client-wall" data-animate>
-          {clientLogos.map(name => (
-            <span key={name}>{name}</span>
+          {clientLogos.map((logo, index) => (
+            <div className="client-logo" key={logo}>
+              <img src={logo} alt={`Cliente Moway ${index + 1}`} />
+            </div>
           ))}
         </div>
       </section>
