@@ -227,7 +227,7 @@ function App() {
     <main>
       <header className={`site-header ${headerVisible || navOpen ? 'is-visible' : ''}`}>
         <a className="brand" href="#inicio" aria-label="Moway inicio">
-          <img src="/assets/moway-logo-otec-small.png" alt="Moway Consultoría & Formación" />
+          <img src="/assets/moway-logo-otec-cropped.png" alt="Moway Consultoría & Formación" />
         </a>
         <button
           className="nav-toggle"
@@ -252,7 +252,7 @@ function App() {
           <span className="eyebrow">
             <Sparkles size={16} /> Consultoría & Formación
           </span>
-          <img className="hero-logo" src="/assets/moway-logo-otec-small.png" alt="Moway Consultoría & Formación" />
+          <img className="hero-logo" src="/assets/moway-logo-otec-cropped.png" alt="Moway Consultoría & Formación" />
           <h1>Socios estratégicos en la búsqueda y desarrollo de tu capital humano.</h1>
           <p>
             Diseñamos soluciones customizadas para fortalecer competencias, transformar equipos y
@@ -471,7 +471,7 @@ function App() {
         <div className="footer-main">
           <div className="footer-top">
             <div className="footer-brand">
-              <img src="/assets/moway-logo-otec-small.png" alt="Moway" />
+              <img src="/assets/moway-logo-otec-cropped.png" alt="Moway" />
               <p>
                 Consultoría, formación y desarrollo organizacional para transformar capacidades en
                 resultados visibles. OTEC con respaldo SENCE y certificación Icontec NCh 2728.
