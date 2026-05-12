@@ -57,6 +57,65 @@ const consulting = [
   'Investigación y mediación en acoso laboral',
 ];
 
+const programGroups = [
+  {
+    title: 'Transversales',
+    items: [
+      'Inducción organizacional',
+      'Liderazgo y gestión del cambio',
+      'Comunicación efectiva y reuniones con propósito',
+      'Negociación, influencia y presentaciones de alto impacto',
+      'Storytelling y formación de facilitadores internos',
+      'Calidad de servicio interno y al cliente',
+      'Gestión del desempeño, objetivos y feedback',
+      'Calidad de vida, pausa activa y autocuidado',
+      'Creatividad, innovación y outplacement',
+    ],
+  },
+  {
+    title: 'Minería & Construcción',
+    items: [
+      'Aversión al riesgo e hipobaria',
+      'Manejo a la defensiva y vehículos 4x4',
+      'Trabajo en altura física y espacios confinados',
+      'Bloqueo, tarjetero y análisis de riesgos',
+      'Uso y armado de andamios',
+      'Trabajo en caliente y sustancias peligrosas',
+      'Operación en planta minera de óxidos y sulfuros',
+      'Operaciones en puerto de embarque de minerales',
+      'Operadores de motoniveladora, retroexcavadora, excavadora y cargador frontal',
+    ],
+  },
+  {
+    title: 'Seguridad y Salud Ocupacional',
+    items: [
+      'Trabajos en altura física según NCh 1258',
+      'Armado y desarme de andamios modulares',
+      'Operaciones verticales industriales',
+      'Rigger y operador pluma según Norma ASME B30',
+      'Trabajo seguro con energía eléctrica',
+      'Incendio y uso de equipos de extinción',
+      'Soporte vital básico y uso de DEA',
+      'Formación para comités paritarios',
+      'Prevención de riesgos para supervisores SIGO-CODELCO',
+    ],
+  },
+  {
+    title: 'Emergencias y Salud',
+    items: [
+      'Formación y capacitación de brigadas de emergencias',
+      'Control de emergencias industriales',
+      'Primera respuesta ante materiales peligrosos',
+      'Manejo de equipos de extinción',
+      'Rescate y soporte vital básico con DEA',
+      'Operaciones tácticas de rescate minero',
+      'Operaciones tácticas de rescate en altura',
+      'Liderazgo y trabajo en equipo',
+      'Otros programas a requerimiento',
+    ],
+  },
+];
+
 const clientLogos = [
   'Falabella',
   'ENGIE',
@@ -306,6 +365,29 @@ function App() {
               <span>Cambios sustentables, medibles y adaptados a la cultura.</span>
             </div>
           </div>
+        </div>
+      </section>
+
+      <section className="section programs" id="programas">
+        <div className="section-heading" data-animate>
+          <span className="section-kicker">Programas de capacitación</span>
+          <h2>Oferta formativa para equipos, operaciones e industrias exigentes.</h2>
+          <p>
+            Programas adaptables a la realidad del cliente, con foco en transferencia al puesto de
+            trabajo, seguridad, liderazgo y desempeño organizacional.
+          </p>
+        </div>
+        <div className="program-grid">
+          {programGroups.map((group, index) => (
+            <article className="program-card" key={group.title} data-animate style={{ '--delay': `${index * 80}ms` }}>
+              <h3>{group.title}</h3>
+              <ul>
+                {group.items.map(item => (
+                  <li key={item}>{item}</li>
+                ))}
+              </ul>
+            </article>
+          ))}
         </div>
       </section>
 
